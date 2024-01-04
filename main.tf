@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "test" {
 }
 
 provider "azurerm" {
- version = "~>3.0"
+ version = "~>1.0"
     features {}
   
 }
